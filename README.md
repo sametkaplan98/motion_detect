@@ -1,4 +1,4 @@
 # motion_detect
-SIFT algoritmasıyla tespit edilen feature'ların FLANN algoritması kullanılarak
-eşleştirilmesi ; bu şekilde aynı feature'ın bir sonraki karede nerede olduğunun
-tespit edilmesi ile hareket yönü ve konum tespiti.
+
+xfeatures2d ile ilgili hata alıyorsanız mevcut opencv sürümünü kaldırıp
+'pip install opencv-contrib-python' komutu ile tekrar yüklemeyi deneyin.
