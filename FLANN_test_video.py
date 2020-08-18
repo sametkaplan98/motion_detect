@@ -1,4 +1,3 @@
-#Not: xfeatures2d modülü openCV sürümünde hata veriyorsa, ilgili sürüm kaldırılıp "pip install opencv-contrib-python" şeklinde yüklenebilir.
 import cv2
 import numpy as np
 import imutils
@@ -35,7 +34,6 @@ while True:
  toplam_src_x=0
  toplam_dst_y=0
  toplam_src_y=0
- 
  
  if des2 is not None : #Yeterli çıkarımda bulunamadığı zaman hata verip
                        #programı sonlandırmaması için
@@ -164,7 +162,3 @@ while True:
 
 video.release()
 cv2.destroyAllWindows()
-
-
-
-
